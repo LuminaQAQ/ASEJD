@@ -1,6 +1,7 @@
 //获取元素，搜索框
 let search_txt = document.querySelector('.search_txt')
-const search_btn = document.querySelector('.search_btn')
+const search_btn = document.querySelector('.search-btn')
+
 let shiyi = document.querySelector('.shiyi')
 //检验是否为农业
 search_btn.addEventListener('click', function () { //这里为什么说addEventListener无法获取元素啊？？
